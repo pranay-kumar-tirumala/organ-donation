@@ -1,4 +1,4 @@
-package com.iiitb.organdonation.organdonation;
+package com.iiitb.organdonation;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
