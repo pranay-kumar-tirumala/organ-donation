@@ -1,11 +1,12 @@
+<app-navigation-bar></app-navigation-bar>
 <form>
     <div class="container register">
         <div class="row">
-            
+
             <div class="col-md-3 register-left">
                 <img src="assets/images/heart_medical.png"  alt=""/>
                 <p style="font-size:22px; font-style: oblique;"><b>Welcome!!</b></p>
-                <p style="font-size:22px; font-style: italic; padding:2%"><b>You are 30 seconds away from saving a life!</b></p>            
+                <p style="font-size:22px; font-style: italic; padding:2%"><b>You are 30 seconds away from saving a life!</b></p>
             </div>
 
             <div class="col-md-9 register-right">
@@ -25,7 +26,7 @@
                                     <select class="dropdwn" name="hospitals" id="hospitals">
                                         <option style="height: 20px;" *ngFor="let hospitalVal of hospitals" [value]="hospitalVal.value">{{hospitalVal.viewValue}}</option>
                                     </select>
-                                    
+
                                     <!--<div class="dropdown">
                                         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                           Dropdown button
@@ -36,12 +37,12 @@
                                           <li><a class="dropdown-item" href="#">Something else here</a></li>
                                         </ul>
                                       </div>-->
-                                    
+
                                 </div>
-                                
+
                                 <button type="button" routerLink="/thankyou" id="donate" name="donate" class="btn btn-primary register_button">Donate</button>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
